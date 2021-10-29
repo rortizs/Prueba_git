@@ -37,3 +37,32 @@ git init
 
   #Agregar al repositorio remoto
   git remote add origin https://github.com/Prueba_git2.git
+
+  #ramas
+  ---------> master 
+     -->rama2 (user3)
+       -->rama3 (user2)
+
+#que comando se usar para las ramas
+Crear una nueva rama 
+git chekout -b rama2
+
+Borrar la rama
+git branch -d rama2
+
+Para volver a la rama principal
+git checkout master
+
+#Actualizar o Fusionar
+para actualizar el repositorio local al commit 
+git pull
+
+#fusionar la rama activa con la rama master
+git merge master
+
+#agregar los archivos que se van a fusionar
+git add .
+
+#antes de fusionar vamos a revisar los cambios
+
+git diff master rama2
